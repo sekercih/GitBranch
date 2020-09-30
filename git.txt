@@ -1,0 +1,10 @@
+Git-Github Review 2. Ders
+Soru ? : Aynı proje proje üzerinde birden fazla kişi çalışıyorsa ve bu çalışanlar aynı dosyalar, satırlar üzerinde değişiklik yaparsa ortaya çakışma(conflict) çıkar. Peki bu conflict'in oluşmaması için ne yapılabilir ?
+--------------------------GIT BRANCH KOMUTLARI--------------------------
+git branch    :  halihazırda hangi dalların var olduğunu ve bizim hangi dal üzerinde bulunduğumuzu gösterir.
+git push --set-upstream origin feature : sadece bir dalı githuba göndermek istiyorsanız bu kodu kullanacaksınız.
+eğer git push kullanırsanız, sadece master branch gider.
+git branch dalIsmi : yeni bir dal oluşturabiliriz.
+git checkout dalIsmi : seçtiğimiz dala geçebiliriz.
+git merge dalIsmi : dalIsmi adlı adlı, üzerinde bulunduğumuz dala ekleyebiliyoruz.
+git reset --hard origin/master
